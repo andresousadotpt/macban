@@ -2,44 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key>
-    <string>macban</string>
-    <key>CFBundleDisplayName</key>
-    <string>macban</string>
-    <key>CFBundleExecutable</key>
-    <string>Macban</string>
-    <key>CFBundleIdentifier</key>
-    <string>com.macban.app</string>
-    <key>CFBundleIconFile</key>
-    <string>AppIcon</string>
-    <key>CFBundlePackageType</key>
-    <string>APPL</string>
-    <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
-    <key>CFBundleVersion</key>
-    <string>1</string>
-    <key>LSMinimumSystemVersion</key>
-    <string>14.0</string>
-    <key>NSHighResolutionCapable</key>
-    <true/>
-    <key>NSPrincipalClass</key>
-    <string>NSApplication</string>
-    <key>NSHumanReadableCopyright</key>
-    <string>A local-first kanban for macOS.</string>
-    <key>LSApplicationCategoryType</key>
-    <string>public.app-category.productivity</string>
-    <key>UTExportedTypeDeclarations</key>
-    <array>
-        <dict>
-            <key>UTTypeIdentifier</key>
-            <string>com.macban.card</string>
-            <key>UTTypeDescription</key>
-            <string>macban Card</string>
-            <key>UTTypeConformsTo</key>
-            <array>
-                <string>public.data</string>
-            </array>
-        </dict>
-    </array>
+	<key>CFBundleDisplayName</key>
+	<string>macban</string>
+	<key>CFBundleExecutable</key>
+	<string>Macban</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.macban.app</string>
+	<key>CFBundleName</key>
+	<string>macban</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>A local-first kanban for macOS.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>macban Card</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.macban.card</string>
+		</dict>
+	</array>
 </dict>
 </plist>
